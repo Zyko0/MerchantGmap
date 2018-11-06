@@ -16,7 +16,7 @@ func main() {
 		os.Exit(1)
 	}
 	companyName := os.Args[1]
-	b, err := ioutil.ReadFile("api.key") // regular file containing your raw clearbit api key
+	b, err := ioutil.ReadFile("api.key") // regular file containing your raw googlemaps api key
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
